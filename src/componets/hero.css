@@ -1,0 +1,16 @@
+@media(width<=782px) {
+    .github-button {
+        visibility: hidden;
+    }
+
+    .Hero-section .heroSection .nav-list {
+        width: 190px;
+    }
+
+}
+
+@media(width<=610px) {
+    .Hero-section .heroSection .nav-list {
+        visibility: hidden;
+    }
+}
