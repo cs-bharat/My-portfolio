@@ -1,16 +1,45 @@
-@media(width<=782px) {
-    .github-button {
-        visibility: hidden;
-    }
 
-    .Hero-section .heroSection .nav-list {
-        width: 190px;
-    }
+.dropdown-menu {
+    display: none;
+    height: 0;
+    position: absolute;
+    right: 2rem;
+    top: 70px;
+    width: 190px;
+    border-radius: 20px;
+    background-color: #7b2cbf;
+    backdrop-filter: blur(87px);
+    overflow: hidden;
+    transition: hight 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
 
-@media(width<=610px) {
-    .Hero-section .heroSection .nav-list {
-        visibility: hidden;
+.dropdown-menu.open {
+    height: 250px;
+}
+
+.dropdown-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu .github-button {
+    width: 100%;
+}
+
+@media(max-width:795px) {
+
+    .Hero-section .heroSection .nav-list,
+    .heroSection .github-button {
+        display: none;
+    }
+
+    .heroSection .toggle-btn {
+        display: block;
+    }
+
+    .dropdown-menu {
+        display: block;
     }
 }

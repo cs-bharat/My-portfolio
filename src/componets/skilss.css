@@ -10,15 +10,13 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.Heading-box:hover{
-    
-}
 .skills-cont-box{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 12px;
     margin-bottom: 20px;
+    padding: 0 10px;
 }
 .individual-skill{
     font-size: 21px;
@@ -32,4 +30,7 @@
     align-items: center;
     gap: 8px;
     border-color: #E0B1CB;
+}
+.individual-skill .imgLogo{
+    width: 30px;
 }
