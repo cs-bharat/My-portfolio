@@ -1,0 +1,17 @@
+.language-used-project{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  
+}
+
+.lan-pro{
+    color: #9D4EDD;
+    border: 1px solid #C77DFF;
+    border-radius: 12px; 
+    padding: 8px 11px;
+}

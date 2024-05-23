@@ -10,8 +10,9 @@ import Tilt from 'react-parallax-tilt';
 function Skills() {
      return (
           <>
-            
-               <div className="skilss-container w-[100%] border-2 global">
+
+
+               <div className="skilss-container w-[100%] global">
 
                     <div className="heading gap-[11px] text-3xl flex flex-col justify-center items-center">
                          <h1 className="text-5xl bold text-white ">Skilss</h1>
@@ -19,7 +20,6 @@ function Skills() {
                     </div>
 
                     <div className="container  w-[100%] flex justify-center items-center flex-wrap gap-[40px] mt-[60px] gap-[40px] m-auto " >
-
 
                          <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
                               <div className="skill-box1 shadow-indigo-500/50 outline-1 outline h-[400px] w-[550px] m-[30px] shadow-xl  radius-[5px] rounded-lg">
@@ -200,7 +200,6 @@ function Skills() {
                     </div>
 
                </div>
-          
           </>
      )
 }

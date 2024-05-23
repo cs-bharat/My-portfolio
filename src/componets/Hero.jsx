@@ -4,7 +4,7 @@ import './hero.css';
 function Hero() {
     return (
         <>
-            <div className="web hero global border-2">
+            <div className="web hero global">
                 <div className='Hero-section h-[70px] w-[100%] max-w-[1200px] m-auto position-relative'  >
 
                     <nav className='heroSection flex justify-between items-center pt-[12px] pl-[10%] pr-[10%] flex-row'>
@@ -17,7 +17,7 @@ function Hero() {
                             <li className='px-4 py-4 font-bold hover:text-[#ea1538] hover:scale-125 transitions duration-300'><a href="#" />Contact</li>
                         </ul>
                         <button class="github-button btn w-44 rounded-full btn-outline text-white  transitions duration-300">
-                            <a href="https://github.com/cs-bharat"> Github-profile </a>
+                            <a href="https://github.com/cs-bharat" target="_blank"> Github-profile </a>
                         </button>
                         <div className="toggle-btn bold text-2xl text-white cursor-pointer hidden">
                             <i class="fa-solid fa-bars"></i>

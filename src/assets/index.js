@@ -30,7 +30,17 @@ import redux from '../assets/redux.png';
 import Bootstrap from '../assets/Bootstrap.png';
 import vs from '../assets/vs.png';
 import vn from '../assets/vn.png';
+import simonSays from '../assets/simonSays.png'
+import githubCard from '../assets/githubCard.png';
+import myntra from '../assets/myntra.png';
+import fanta from '../assets/fanta.png';
+import currency from '../assets/currency.png';
 export {
+    simonSays,
+    myntra,
+    fanta,
+    currency,
+    githubCard,
     cloud,
     django,
     docker,

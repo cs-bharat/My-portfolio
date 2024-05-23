@@ -7,8 +7,8 @@ function Overview() {
     return (
 
         <>  
-            <div className="global border-2 overview-section  flex justify-center flex-wrap items-center ">
-                <div className="intro-box  w-[50%] flex justify-center h-[100vh] items-center">
+            <div className="global  overview-section  flex justify-center flex-wrap items-center ">
+                <div className="intro-box max-w-[600px] w-[50%] flex justify-center h-[100vh] items-center">
                     <div className="left-box w-[100%] pl-[15%] ">
                         <div className="top-intro text-6xl text-white w-full max-w-[520px] ">
                             <h1>Hi,I am </h1>
