@@ -1,0 +1,6 @@
+
+@media(width<=580px){
+    .footer ,a, .footer-img {
+         width: 180px;
+    }
+}

@@ -37,7 +37,17 @@ import fanta from '../assets/fanta.png';
 import currency from '../assets/currency.png';
 import logo from '../assets/logo.png';
 import bhavnaSchool from '../assets/bhavnaSchool.png';
+import Linkedin3 from '../assets/Linkedin3.png';
+import Instagram3 from '../assets/Instagram3.png';
+import youtube3 from '../assets/youtube3.png';
+import twitter from '../assets/twitter.png';
+import discord from '../assets/discord.png';
 export {
+    discord,
+    Instagram3,
+    youtube3,
+    twitter,
+    Linkedin3,
     bhavnaSchool,
     logo,
     simonSays,
