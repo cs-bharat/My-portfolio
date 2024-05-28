@@ -1,15 +1,16 @@
 import React from "react";
 import { simonSays, githubCard,fanta,myntra,currency } from "../assets";
 import './projects.css';
-
 import Tilt from 'react-parallax-tilt';
+
+
 function Projects() {
     return (
         <>
             <div id='projects' className="global">
-                <div className="projects-container-head border-2 max-w-[1400px] w-[100%]  m-auto ">
+                <div className="projects-container-head max-w-[1400px] w-[100%]  m-auto  ">
                     <div className="projects-head gap-[12px] text-3xl flex flex-col justify-center items-center">
-                        <h1 className="text-5xl bold text-white ">Projects</h1>
+                        <h1 className="text-5xl bold text-white mt-[30px] ">Projects</h1>
                         <p className="text-center">I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.</p>
                     </div>
 

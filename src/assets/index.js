@@ -35,7 +35,11 @@ import githubCard from '../assets/githubCard.png';
 import myntra from '../assets/myntra.png';
 import fanta from '../assets/fanta.png';
 import currency from '../assets/currency.png';
+import logo from '../assets/logo.png';
+import bhavnaSchool from '../assets/bhavnaSchool.png';
 export {
+    bhavnaSchool,
+    logo,
     simonSays,
     myntra,
     fanta,
