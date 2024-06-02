@@ -114,10 +114,7 @@ function Skills() {
                                              <img src={java} className="imgLogo" />
                                              JAVA
                                         </div>
-                                        <div className="individual-skill  hover:scale-110 shadow-zinc-600 shadow-lg">
-                                             <img src="" className="imgLogo" />
-                                             Flask
-                                        </div>
+                                       
                                    </div>
                               </div>
                          </Tilt>
