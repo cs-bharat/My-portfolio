@@ -17,7 +17,7 @@ function Skills() {
                          <p className=" text-center">Here are some of my skills on which I have been working on for the past 3 years.</p>
                     </div>
 
-                    <div className="container  w-[100%] flex justify-center items-center flex-wrap gap-[40px] mt-[60px] gap-[40px] m-auto " >
+                    <div className="container  w-[100%] flex justify-center items-center flex-wrap mt-[60px] gap-[40px] m-auto " >
 
                          <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
                               <div className="skill-box1 shadow-indigo-500/50 outline-1 outline h-[400px] w-[550px] m-[30px] shadow-xl  radius-[5px] rounded-lg ">
