@@ -29,7 +29,7 @@ function Education() {
                                 </div>
                             </div>
                             <div className="text-2xl m-[10px]  p-[10px]">Grade : 8.58 cgpa</div>
-                            <div className="text-xl m-[10px] p-[10px]">I am currently pursuing a Bachelor's degree in Computer Science and Engineering at swarrnim startup and innovetion university Ghandhinagar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, DBMS, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC), where I am learning and working on exciting projects with a team of talented developers.
+                            <div className="text-xl m-[10px] p-[10px]">I am currently pursuing a Bachelor's degree in Computer Science and Engineering at swarrnim startup and innovetion university Ghandhinagar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, DBMS,among others.where I am learning and working on exciting projects with a team of talented developers.
                             </div>
                         </div>
                      </Tilt>
@@ -69,7 +69,7 @@ function Education() {
                                 </div>
                             </div>
                             <div className="text-2xl m-[10px]  p-[10px]">Grade : 84%</div>
-                            <div className="text-xl m-[10px] p-[10px]">I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.
+                            <div className="text-xl m-[10px] p-[10px]">I completed my class 10 education at ashish bhavna School, vastral Ahmedabad .
                             </div>
                         </div>
                         </div>
