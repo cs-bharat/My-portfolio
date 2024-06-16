@@ -5,21 +5,16 @@
 *{
   font-family: "Lora", serif;
   font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   /* font-weight: <weight>;
   font-style: normal; */
 }
 
-
 .global{
-    background-color: #231942;
+    background-color: #000;
     background-image: url('./assets/herobg.png');
     background-size: cover;
     background-position: center;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
 }

@@ -118,7 +118,7 @@ function Skills() {
                                    </div>
                               </div>
                          </Tilt>
-                         <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
+                         {/* <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
                               <div className="skill-box3 h-[400px] w-[550px] m-[30px] shadow-xl shadow-indigo-500/50 rounded-lg outline-1 outline">
 
                                    <div className="Heading-box box-H-3 text-center text-3xl font-medium  subpixel-antialiased cursor-pointer hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110">DevOps</div>
@@ -142,7 +142,7 @@ function Skills() {
                                         </div>
                                    </div>
                               </div>
-                         </Tilt>
+                         </Tilt> */}
                          <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
                               <div className="skill-box4 h-[400px] w-[550px] m-[30px] shadow-xl shadow-indigo-500/50 rounded-lg outline-1 outline">
                                    <div className="Heading-box box-H-4 text-center text-3xl font-medium  subpixel-antialiased cursor-pointer hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110">Others</div>

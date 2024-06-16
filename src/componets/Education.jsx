@@ -8,7 +8,7 @@ function Education() {
         <>
             <div className="container-Education global   ">
 
-                <div id="Education max-w-[1400px]  w-[100%] m-auto" >
+                <div id="Education max-w-[1400px]  w-[100%] m-auto " >
                     <div className=" gap-[12px] text-3xl flex flex-col justify-center items-center  w-[100%] ">
                         <div className="heading-education text-5xl bold text-white mt-[30px]">Education</div>
                         <div className="education-intro text-center ">My education has been a journey of self-discovery and growth. My educational details are as follows.</div>

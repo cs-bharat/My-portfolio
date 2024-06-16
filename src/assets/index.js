@@ -42,7 +42,14 @@ import Instagram3 from '../assets/Instagram3.png';
 import youtube3 from '../assets/youtube3.png';
 import twitter from '../assets/twitter.png';
 import discord from '../assets/discord.png';
+import spotify from '../assets/spotify.png';
+import textTranslate from '../assets/textTranslate.png';
+import virtual from'../assets/virtual.png';
+
 export {
+    virtual,
+    spotify,
+    textTranslate,
     discord,
     Instagram3,
     youtube3,
