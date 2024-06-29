@@ -6,7 +6,7 @@
 
 step number 1 :  npm install gh-pages --save-dev 
 ----------------------------------------------------------------------
-step number 2 : package.json me =>> "homepage" : "https://github username.github.io/repository name" 
+step number 2 : package.json me =>> "homepage" : "github username.github.io/repository name" 
 ----------------------------------------------------------------------------------------------------
 step number 3 : package.json me =>> scripts =>  "predeploy" : "npm run build" ,, "deploy" : "gh-pages -d build ya dist"
 ---------------------------------------------------------------------------------------------------------------
