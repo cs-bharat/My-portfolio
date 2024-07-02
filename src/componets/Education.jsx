@@ -6,7 +6,7 @@ import Tilt from 'react-parallax-tilt';
 function Education() {
     return (
         <>
-            <div className="container-Education global   ">
+            <div className="container-Education global overflow-hidden object-cover">
 
                 <div id="Education max-w-[1400px]  w-[100%] m-auto " >
                     <div className=" gap-[12px] text-3xl flex flex-col justify-center items-center  w-[100%] ">
@@ -29,7 +29,7 @@ function Education() {
                                 </div>
                             </div>
                             <div className="text-2xl m-[10px]  p-[10px]">Grade : 8.58 cgpa</div>
-                            <div className="text-xl m-[10px] p-[10px]">I am currently pursuing a Bachelor's degree in Computer Science and Engineering at swarrnim startup and innovetion university Ghandhinagar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, DBMS,among others.where I am learning and working on exciting projects with a team of talented developers.
+                            <div className="text-xl m-[10px] p-[10px]">I am currently pursuing a Bachelor's degree in Computer Science and Engineering at swarrnim startup and innovetion university Ghandhinagar. I have completed 6 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, DBMS,among others.where I am learning and working on exciting projects with a team of talented developers.
                             </div>
                         </div>
                      </Tilt>
@@ -47,7 +47,7 @@ function Education() {
                                     <div className="text-lg"> mar 2019 - mar 2021 </div>
                                 </div>
                             </div>
-                            <div className="text-2xl m-[10px]  p-[10px]">Grade : 7.86 cgpa</div>
+                            <div className="text-2xl m-[10px]  p-[10px]">Percentage : 70%</div>
                             <div className="text-xl m-[10px] p-[10px]">I completed my class 12 high school education at Ashish Bhavna School, Ahmedabad, where I studied Science with Computer Science.
                             </div>
                         </div>
@@ -59,8 +59,8 @@ function Education() {
                         <div className="flex justify-center flex-col pl-[85px]">
                         <div className="verticle-timline p-[10px]  max-w-[1000px]  m-[30px] shadow-xl  shadow-indigo-500/50 outline-1 outline radius-[5px] rounded-lg relative l-[30px] ">
                             <div className="logo-title flex max-w-[700px] justify-center gap-[40px]">
-                                <div className="logo-college h-[70px] w-[70px] rounded-lg border-2 m-[18px] flex flex-wrap">
-                                    <img className="img-college" src={bhavnaSchool}></img>
+                                <div className="logo-college rounded-lg  m-[18px] ">
+                                    <img className="img-college lg:w-[100px] w-[90px] sm:w-[80px]" src={bhavnaSchool}></img>
                                 </div>
                                 <div className="college-intro">
                                     <div className=" text-2xl font-bold text-white"> Ashish HR. Secoundary School </div>
@@ -68,7 +68,7 @@ function Education() {
                                     <div className="text-lg"> mar 2018 - mar 2019 </div>
                                 </div>
                             </div>
-                            <div className="text-2xl m-[10px]  p-[10px]">Grade : 84%</div>
+                            <div className="text-2xl m-[10px]  p-[10px]">Percentage : 84%</div>
                             <div className="text-xl m-[10px] p-[10px]">I completed my class 10 education at ashish bhavna School, vastral Ahmedabad .
                             </div>
                         </div>

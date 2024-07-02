@@ -10,19 +10,19 @@ import Tilt from 'react-parallax-tilt';
 function Skills() {
      return (
           <>
-               <div className="skilss-container w-[100%] global">
+               <div className="skilss-container w-[100%] global overflow-hidden object-cover flex flex-col flex-wrap">
 
-                    <div className="heading gap-[11px] text-3xl flex flex-col justify-center items-center">
+                    <div className="heading gap-[11px] text-3xl flex flex-col justify-center items-center mt-8">
                          <h1 className="text-5xl bold text-white ">Skilss</h1>
                          <p className=" text-center">Here are some of my skills on which I have been working on for the past 3 years.</p>
                     </div>
 
-                    <div className="container  w-[100%] flex justify-center items-center flex-wrap mt-[60px] gap-[40px] m-auto " >
+                    <div className="container  w-[100%] max-w-[800px] flex justify-center items-center flex-wrap mt-[60px] gap-[40px] m-auto " >
 
                          <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
-                              <div className="skill-box1 shadow-indigo-500/50 outline-1 outline h-[400px] w-[550px] m-[30px] shadow-xl  radius-[5px] rounded-lg ">
+                              <div className="skill-box1  shadow-indigo-500/50 outline-1 outline m-[30px] shadow-xl  radius-[5px] rounded-lg ">
                                    <div className="Heading-box box-H-1 text-center text-3xl font-medium  subpixel-antialiased cursor-pointer hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110">Frontend</div>
-                                   <div className="skills-cont-box box-1 shadow-amber-800 shadow-lg ">
+                                   <div className="skills-cont-box box-1 shadow-amber-800 shadow-lg max-w-[400px] pb-8">
                                         <div className="individual-skill shadow-zinc-600 shadow-lg  hover:scale-110">
                                              <img src={React1} className="imgLogo" />
                                              React Js
@@ -72,11 +72,15 @@ function Skills() {
                               </div>
 
                          </Tilt>
-                         <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
-                              <div className="skill-box2  h-[400px] w-[550px] m-[30px] shadow-xl shadow-indigo-500/50 rounded-lg outline-1 outline">
 
-                                   <div className="Heading-box box-H-2 text-center text-3xl font-medium  subpixel-antialiased cursor-pointer hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110">Backend</div>
-                                   <div className="skills-cont-box box-2 shadow-cyan-200 shadow-xl" >
+                         <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
+                              {/*  h-[400px] w-[550px]  */}
+                           <div className="skill-box2 m-[30px] shadow-xl shadow-indigo-500/50 rounded-lg outline-1 outline">
+
+                               <div className="Heading-box box-H-2 text-center text-3xl font-medium  subpixel-antialiased cursor-pointer hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110">
+                                   Backend
+                              </div>
+                                   <div className="skills-cont-box box-2 shadow-cyan-200 shadow-xl pb-8" >
                                         <div className="individual-skill  hover:scale-110 ">
                                              <img src={nodeJs} className="imgLogo" />
                                              Node Js
@@ -114,10 +118,16 @@ function Skills() {
                                              <img src={java} className="imgLogo" />
                                              JAVA
                                         </div>
+                                        <div className="individual-skill  hover:scale-110 ">
+                                             <img src="" className="imgLogo" />
+                                             Appwrite
+                                        </div>
                                        
-                                   </div>
+                                    </div>
                               </div>
                          </Tilt>
+
+
                          {/* <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
                               <div className="skill-box3 h-[400px] w-[550px] m-[30px] shadow-xl shadow-indigo-500/50 rounded-lg outline-1 outline">
 
@@ -143,10 +153,13 @@ function Skills() {
                                    </div>
                               </div>
                          </Tilt> */}
+                         
                          <Tilt className="tilt " tiltMaxAngleX={20} tiltMaxAngleY={15} perspective={1000} transitionSpeed={500} scale={1.1}>
-                              <div className="skill-box4 h-[400px] w-[550px] m-[30px] shadow-xl shadow-indigo-500/50 rounded-lg outline-1 outline">
-                                   <div className="Heading-box box-H-4 text-center text-3xl font-medium  subpixel-antialiased cursor-pointer hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110">Others</div>
-                                   <div className="skills-cont-box box-4 shadow-stone-300 shadow-lg">
+                              <div className="skill-box4  m-[30px] shadow-xl shadow-indigo-500/50 rounded-lg outline-1 outline">
+                                   <div className="Heading-box box-H-4 text-center text-3xl font-medium  subpixel-antialiased cursor-pointer hover:-translate-y-1 transition ease-in-out delay-150 hover:scale-110">
+                                        Others
+                                   </div>
+                                   <div className="skills-cont-box box-4 shadow-stone-300 shadow-lg pb-8">
                                         <div className="individual-skill   hover:scale-110 ">
                                              <img src={git} className="imgLogo" />
                                              Git

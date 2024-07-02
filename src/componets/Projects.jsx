@@ -1,5 +1,5 @@
 import React from "react";
-import { simonSays, githubCard, fanta, myntra, currency, spotify, textTranslate, virtual } from "../assets";
+import { simonSays, githubCard, fanta, myntra , currency, spotify, textTranslate, virtual } from "../assets";
 import './projects.css';
 import Tilt from 'react-parallax-tilt';
 
@@ -7,7 +7,7 @@ import Tilt from 'react-parallax-tilt';
 function Projects() {
     return (
         <>
-            <div id='projects' className="global">
+            <div id='projects' className="global overflow-hidden object-cover ">
                 <div className="projects-container-head max-w-[1400px] w-[100%]  m-auto  ">
                     <div className="projects-head gap-[12px] text-3xl flex flex-col justify-center items-center">
                         <h1 className="text-5xl bold text-white mt-[30px] ">Projects</h1>
@@ -200,7 +200,7 @@ function Projects() {
                                     </div>
                                     <div className="card-project-btn p-[20px] flex items-center justify-center">
                                         <button className="btn btn-outline btn-wide  btn-primary absolute bottom-10">
-                                            <a href="https://github.com/cs-bharat"> Visit Projects</a>
+                                            <a href="https://text-translate-kappa.vercel.app/"> Visit Projects</a>
                                         </button>
                                     </div>
                                 </div>
@@ -230,7 +230,7 @@ function Projects() {
                                     </div>
                                     <div className="card-project-btn p-[20px] flex items-center justify-center">
                                         <button className="btn btn-outline btn-wide  btn-primary absolute bottom-12">
-                                            <a href="https://github.com/cs-bharat"> Visit Projects</a>
+                                            <a href="https://virtual-reality-responsive-page.vercel.app/"> Visit Projects</a>
                                         </button>
                                     </div>
                                 </div>
