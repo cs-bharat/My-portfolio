@@ -9,7 +9,7 @@ function Hero() {
 
                     <nav className='heroSection flex justify-between items-center pt-[12px] pl-[10%] pr-[10%] flex-row'>
                         <h2 className='text-2xl text-slate-50'>Bharat ||<span className="text-cyan-300"> prajapati </span></h2>
-                        <ul className='nav-list inline-block flex text-white cursor-pointer '>
+                        <ul className='nav-list  flex text-white cursor-pointer '>
                             <li className='px-4 py-4 font-bold hover:text-[#ea1538] hover:scale-125 transitions duration-300 '><a href="#" />About</li>
                             <li className='px-4 py-4 font-bold hover:text-[#ea1538] hover:scale-125 transitions duration-300 '><a href="#" />Skilss</li>
                             <li className='px-4 py-4 font-bold hover:text-[#ea1538] hover:scale-125 transitions duration-300'><a href="#" />Projects</li>
